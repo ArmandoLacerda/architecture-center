@@ -61,7 +61,7 @@ The following tables summarize the key differences in capabilities.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Is managed service | Yes | Yes |  Yes | Yes <sup>1</sup> | Yes <sup>1</sup> | Yes | Yes |
 | Primary database model | Relational (columnar format when using columnstore indexes) | Relational tables with columnar storage | Relational (column store), telemetry, and time series store | Wide column store | Hive/In-Memory | Tabular semantic models | Document store, graph, key-value store, wide column store |
-| SQL language support | Yes | Yes | Yes | Yes (using [Phoenix](https://phoenix.apache.org/) JDBC driver) | Yes | No | Yes |
+| SQL language support | Yes | Yes | No | Yes (using [Phoenix](https://phoenix.apache.org/) JDBC driver) | Yes | No | Yes |
 | Optimized for speed serving layer | Yes <sup>2</sup> | No | Yes | Yes | Yes | No | Yes |
 
 [1] With manual configuration and scaling.
